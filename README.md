@@ -1,5 +1,5 @@
 
-# Metamask Brute-Force Project
+# Metamask Brute-Force Project v 1.0 [BETA]
 
 This repository contains a Python-based script used to perform brute-force attacks on Metamask wallets. The script attempts various combinations to gain unauthorized access to Metamask accounts. **Please use this script only with the appropriate authorization from the account owner.**
 
@@ -39,6 +39,10 @@ pip install mnemonic bip32-python eth-account web3 requests
 3. Configure the settings file:
    - Set target Metamask wallets and brute-force settings.
    - Adjust password patterns and attempts to suit your needs.
+   - Update the Infura connection information in the script with your `YOUR_INFURA_ID`:
+     ```python
+     infura_url = "https://mainnet.infura.io/v3/YOUR_INFURA_ID"
+     ```
 
 ## Warning
 - This script is for educational and research purposes only.
