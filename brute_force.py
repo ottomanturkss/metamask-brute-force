@@ -9,7 +9,7 @@ import requests  # Import requests to handle exceptions
 mnemo = Mnemonic("english")
 
 # Connect to Infura
-infura_url = "https://mainnet.infura.io/v3/1e1edc00c0df4051b5b857c2d4f4d286"  # Replace with your Infura Project ID
+infura_url = "https://mainnet.infura.io/v3/YOUR_INFURA_ID"  # Replace with your Infura Project ID
 web3 = Web3(Web3.HTTPProvider(infura_url))
 
 while True:  # Infinite loop
