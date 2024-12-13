@@ -60,7 +60,7 @@ pip install mnemonic bip32-python eth-account web3 requests
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
 
 ## Contact
-For reviews or questions, you can contact the repository owner via email.
+For reviews or questions, you can contact the repository owner via email or onur.altun@yahoo.com
 
 ## Donations
 If you found this project useful and wish to support it, you can donate to the following addresses:
